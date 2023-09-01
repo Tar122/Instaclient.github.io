@@ -1,0 +1,164 @@
+/* รีเซ็ตสไตล์ของเว็บเพจ */
+/* สไตล์ CSS เพื่อจัดให้เนื้อหาอยู่ตรงกลางแนวนอน */
+section {
+    text-align: center;
+}
+
+/* สไตล์ CSS เพื่อจัดให้ลิงก์ดาวน์โหลดอยู่ตรงกลางแนวนอน */
+a {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin: 0 auto; /* นี่คือส่วนที่ทำให้ลิงก์อยู่ตรงกลางแนวนอน */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* สไตล์ของหัวเว็บไซต์ */
+header {
+    background-color: #33333300;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+/* สไตล์ของส่วนหลักของเว็บไซต์ */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+a {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #0056b3;
+}
+
+/* สไตล์ของส่วนท้ายของเว็บไซต์ */
+footer {
+    background-color: #33333300;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* เพิ่มสไตล์เพิ่มเติมตามที่คุณต้องการ */
+
+body {
+    background-image: url('USA.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* สไตล์ทั่วไปสำหรับทุกขนาดหน้าจอ */
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+h1 {
+    font-size: 2rem;
+    color: #068fff;
+}
+
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* สไตล์สำหรับขนาดหน้าจอขนาดเล็ก (Mobile) */
+@media (max-width: 767px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+    
+    main {
+        padding: 10px;
+    }
+    
+    footer {
+        padding: 5px 0;
+    }
+    
+    /* ปรับขนาดรูปภาพให้พอดีกับขนาดหน้าจอ */
+    main img {
+        max-width: 100%; /* ทำให้รูปภาพของคุณไม่เกินความกว้างของหน้าจอ */
+        height: auto; /* ให้สูงตามอัตราส่วนของรูปภาพ */
+    }
+}
+.download-section {
+    text-align: center;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* สไตล์ปุ่ม */
+.button {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin: 0 10px;
+    padding: 10px 20px;
+    width: 150px;
+    height: 40px;
+    text-align: center; /* จัดข้อความให้อยู่ตรงกลางแนวนอน */
+    line-height: 20px; /* จัดข้อความให้อยู่ตรงกลางแนวตั้ง */
+}
+
+
+.button:hover {
+    background-color: #0056b3;
+}
